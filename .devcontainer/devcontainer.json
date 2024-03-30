@@ -11,6 +11,11 @@
   },
   "customizations": {
     "codespaces": {
+      "repositories": {
+        "AgnesHeppich/john-maraton": {
+          "permissions":  "write-all"
+        }
+      },
       "openFiles": [
         "pages/index.js"
       ]
