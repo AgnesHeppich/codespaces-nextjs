@@ -1,6 +1,6 @@
 {
     "crons": [{
       "path": "/maraton",
-      "schedule": "0-59 * * * *"
+      "schedule": "*/1 * * * *"
     }]
   }
