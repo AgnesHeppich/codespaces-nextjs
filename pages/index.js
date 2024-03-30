@@ -15,7 +15,6 @@ function Home() {
   const increment = useCallback(() => {
     setCount((v) => v + 1)
   }, [setCount])
-
   useEffect(() => {
     const r = setInterval(() => {
       increment()
