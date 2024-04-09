@@ -1,3 +1,5 @@
+export const revalidate = 0
+
 export async function GET() {
     
     const maratondata = await fetch("https://secure.onreg.com/onreg2/bibexchange/?eventid=6087&language=us")
