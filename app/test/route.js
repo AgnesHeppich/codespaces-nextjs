@@ -7,7 +7,7 @@ export async function GET() {
     if(html.includes("There are currently no race numbers for sale. Try again later.")) {
       console.log("Det finns inte biljetter")
       // Post to slack
-      await fetch("https://hooks.slack.com/services/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", {
+      await fetch("https://hooks.slack.com/services/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", {
         method: "POST",
         body: JSON.stringify({
           text: "Det här är ett test. Ignorera detta"
